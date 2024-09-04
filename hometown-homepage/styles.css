@@ -153,7 +153,7 @@ p{
     display: flex;
     /* width: 500px; */
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     border-bottom: solid 5px #BCA293;
     background-color: #3F4640;
     
@@ -246,5 +246,19 @@ input[type="text"]:focus, textarea:focus {
         display: block;
         text-align: center;
     }
+}
+
+
+.profile-description{
+    width: 700px;
+    margin-left: 30px;
+}
+
+.profile-description p{
+    text-align: left;
+}
+
+.profile-description h3{
+    text-align: left;
 }
 
