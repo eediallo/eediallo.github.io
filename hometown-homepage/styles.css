@@ -1,10 +1,11 @@
+
+*{
+    box-sizing: border-box;
+}
+
 body{
     color: #BCA293;
     margin: 0;
-    font-family: "Orbitron", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 800;
-    font-style: normal;
 }
 
 
@@ -30,8 +31,12 @@ Challenge:
     color: #BCA293;
 }
 
-h1, h3{
+h1, h2, h3{
     text-align: center;
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
 }
 
 #title{
@@ -105,10 +110,11 @@ tag's default margin.
 
 .fun-facts div {
     text-align: center;
-    background-color: #f0f0f0;
+    background-color: #BCA293;
     padding: 10px;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    color: white;
 }
 
 .fun-facts img {
@@ -120,5 +126,45 @@ tag's default margin.
 .fun-facts h4 {
     margin-top: 10px;
     font-size: 1.2em;
+    color: #3F4640;
 }
 
+
+#title{
+    background-color: #BCA293;
+    color: white;
+    padding: 5px 10px;
+}
+
+#sub-title{
+    text-align: center;
+    background-color: #3F4640;
+    color: white;
+    padding: 4px 10px   ;
+}
+
+p{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+#about-me{
+    display: flex;
+    width: 500px;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: solid 5px #BCA293;
+    background-color: #3F4640;
+    
+}
+
+
+.about-me-container{
+    display: block;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
