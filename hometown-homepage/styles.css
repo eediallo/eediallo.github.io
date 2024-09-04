@@ -56,17 +56,6 @@ h1, h2, h3{
   font-style: normal;
 }*/
 
-.orbitron-h {
-  font-family: "Orbitron", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.expo-line{
-    border-bottom: 4px solid white;
-}
-
 #spacex-logo{
     width: 400px;
     display: block;
@@ -99,6 +88,7 @@ tag's default margin.
     /* display: flex;
     justify-content: space-around;
     align-items: center; */
+    padding-top: 100px;
 }
 
 .fun-facts {
@@ -268,4 +258,8 @@ input[type="text"]:focus, textarea:focus {
 
 footer p {
     color: #3F4640;
+}
+
+#guinea{
+    border-bottom: solid 4px white;
 }
