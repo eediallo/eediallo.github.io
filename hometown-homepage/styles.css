@@ -140,13 +140,16 @@ tag's default margin.
     text-align: center;
     background-color: #3F4640;
     color: white;
-    padding: 4px 10px   ;
+    padding: 4px 10px;
+    font-size: 18px;
 }
 
 p{
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
 }
 
 #about-me{
