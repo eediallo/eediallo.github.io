@@ -265,3 +265,7 @@ input[type="text"]:focus, textarea:focus {
     text-align: left;
 }
 
+
+footer p {
+    color: #3F4640;
+}
