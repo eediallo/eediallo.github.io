@@ -4,7 +4,6 @@
 }
 
 body{
-    color: #BCA293;
     margin: 0;
 }
 
@@ -18,7 +17,7 @@ Challenge:
 
 
 
-.apply-btn{
+/* .apply-btn{
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -29,7 +28,7 @@ Challenge:
     font-family: "Orbitron", sans-serif;
     font-weight: 800;
     color: #BCA293;
-}
+} */
 
 h1, h2, h3{
     text-align: center;
@@ -116,7 +115,6 @@ tag's default margin.
 .fun-facts h4 {
     margin-top: 10px;
     font-size: 1.2em;
-    color: #3F4640;
 }
 
 
@@ -128,7 +126,7 @@ tag's default margin.
 
 #sub-title{
     text-align: center;
-    background-color: #3F4640;
+    background-color: #3F4640;  
     color: white;
     padding: 4px 10px;
     font-size: 18px;
@@ -148,7 +146,7 @@ p{
     align-items: center;
     justify-content: space-between;
     border-bottom: solid 5px #BCA293;
-    background-color: #3F4640;
+    /* background-color: #3F4640; */
     
 }
 
@@ -256,10 +254,15 @@ input[type="text"]:focus, textarea:focus {
 }
 
 
-footer p {
-    color: #3F4640;
-}
-
 #guinea{
     border-bottom: solid 4px white;
+}
+
+
+.modes_wrapper{
+    text-align: center;
+}
+
+#light_mode{
+    margin-right: 10px;
 }
