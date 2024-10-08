@@ -13,9 +13,9 @@ const IntroToDigital = () => {
           <Link to="/google-clone">Google Clone</Link>
         </li>
         <li>
-          <Link to="/https://elhadji-digital-business-card.netlify.app/">
+          <a href="https://elhadji-digital-business-card.netlify.app/">
             Digital Business Card
-          </Link>
+          </a>
         </li>
       </ul>
     </>
