@@ -24,14 +24,14 @@ body {
 
 }
 
-li{
+.nav-bar-section li{
   list-style: none;
   display: inline-block;
   margin-left: 15px;
 }
 .App {
-  text-align: center;
-  line-height: 1.5;
+  /* text-align: center; */
+  /* line-height: 1.5; */
 }
 
 
