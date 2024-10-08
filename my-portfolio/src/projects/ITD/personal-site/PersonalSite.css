@@ -1,4 +1,4 @@
-:root {
+/* :root {
     --superhero: 'Bangers', cursive;
     --fantasy: 'MedievalSharp', cursive;
     --space: 'Orbitron', sans-serif;
@@ -20,28 +20,28 @@
     
     --light: var(--background);
     --dark: var(--text);
-}
+} */
 
 
-body, html {
+/* body, html {
     margin: 0;
     padding: 10px;
     background: var(--background);
     color: var(--text);
     font-family: var(--font);
-}
+} */
 
-img {
+.personal-site-main-section img{
     width: 30%;
     border-radius: calc(var(--image) * 2);
     border: 4px solid var(--text);
 }
 
-a {
+.personal-site-main-section a {
     color: var(--text);
 }
 
-input {
+.personal-site-main-section input {
     display: block;
     margin: 20px 0 0;
     width: 160px;
@@ -56,11 +56,11 @@ input {
     font-family: var(--font);
 }
 
-::placeholder {
+/* ::placeholder {
     color: var(--text);
-}
+} */
 
-button {
+.personal-site-main-section button {
     border-radius: var(--image);
     padding: 5px 10px;
     border: none;
