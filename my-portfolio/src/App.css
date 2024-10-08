@@ -1,7 +1,45 @@
-.App {
-  text-align: center;
+*{
+  box-sizing: border-box;
 }
 
+body {
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-bar-section a {
+  text-decoration: none;
+  display: inline-block;
+  color: black;
+  border-bottom: 3px solid black;
+  cursor: pointer;
+}
+
+.nav-bar-section a:hover, a:focus{
+  background-color: black;
+  color: white;
+  padding: 10px;
+  border: none;
+
+}
+
+li{
+  list-style: none;
+  display: inline-block;
+  margin-left: 15px;
+}
+.App {
+  text-align: center;
+  line-height: 1.5;
+}
+
+
+.main-section{
+  width: 800px;
+  margin-right: auto;
+  margin-left: auto;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -35,4 +73,20 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.checkout-my-work-btn{
+  padding: 10px;
+  background-color: black;
+  color: white;
+  text-decoration: none;
+}
+
+.checkout-my-work-btn:hover, .checkout-my-work-btn:focus{
+  padding: 10px;
+  background-color: green;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
 }
