@@ -7,6 +7,7 @@ import NavBar from "./components/NavBar";
 import IntroToDigital from "./pages/IntroToDigital";
 import GoogleClone from "./projects/ITD/Google.com/GoogleClone";
 import PersonalSite from "./projects/ITD/personal-site/PersonalSite";
+import SpaceExploration from "./projects/ITD/space-exploration/SpaceExploration";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route path="/intro-to-digital" element={<IntroToDigital />} />
           <Route path="/personal-site" element={<PersonalSite />} />
           <Route path="/google-clone" element={<GoogleClone />} />
+          <Route path="/space-exploration" element={<SpaceExploration />} />
         </Routes>
       </BrowserRouter>
     </div>
