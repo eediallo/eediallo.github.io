@@ -12,6 +12,11 @@ const IntroToDigital = () => {
         <li>
           <Link to="/google-clone">Google Clone</Link>
         </li>
+        <li>
+          <Link to="/https://elhadji-digital-business-card.netlify.app/">
+            Digital Business Card
+          </Link>
+        </li>
       </ul>
     </>
   );
