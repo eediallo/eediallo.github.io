@@ -2,12 +2,12 @@ import { Link } from "react-router-dom";
 import ProfilePicture from "./images/ProfilePicture.png";
 import "./PersonalSite.css";
 
-const PersonalSiteProject = () => {
+const PersonalSite = () => {
     const currentDate = new Date()
     const currentYear = currentDate.getFullYear()
     const age = currentYear - 1998
     return (
-        <div>
+        <div className="personal-site-main-section">
             <img src={ProfilePicture} alt="Profile of Elhadj" />
             
             <h1>Hi, my name is Elhadj</h1>
@@ -32,4 +32,4 @@ const PersonalSiteProject = () => {
     );
 };
 
-export default PersonalSiteProject;
+export default PersonalSite;
