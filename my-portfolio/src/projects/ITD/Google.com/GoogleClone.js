@@ -5,7 +5,7 @@ import "./Google.css";
 const GoogleClone = () => {
   return (
     <>
-      <div className="main">
+      <div className="main google-clone-project-section">
         <img
           className="google-logo"
           src={GoogleLogo}
@@ -22,11 +22,11 @@ const GoogleClone = () => {
         <p>
           We protect your privacy. <a href="blog.html">Learn more.</a>
         </p>
-      </div>
 
-      <p>
-        Return to <Link to="/">Home page</Link>
-      </p>
+        <p>
+          Return to <Link to="/">Home page</Link>
+        </p>
+      </div>
     </>
   );
 };
