@@ -8,6 +8,7 @@ import IntroToDigital from "./pages/IntroToDigital";
 import GoogleClone from "./projects/ITD/Google.com/GoogleClone";
 import PersonalSite from "./projects/ITD/personal-site/PersonalSite";
 import SpaceExploration from "./projects/ITD/space-exploration/SpaceExploration";
+import HomeTownHomePage from "./projects/ITD/hometown-homepage/HomeTownHomePage";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           <Route path="/personal-site" element={<PersonalSite />} />
           <Route path="/google-clone" element={<GoogleClone />} />
           <Route path="/space-exploration" element={<SpaceExploration />} />
+          <Route path="/home-town-home-page" element={<HomeTownHomePage />} />
         </Routes>
       </BrowserRouter>
     </div>
