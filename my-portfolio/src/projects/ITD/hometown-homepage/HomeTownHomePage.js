@@ -20,7 +20,7 @@ const HomeTownHomePage = () => {
     return (
         <div className={`home-town-home-page ${darkMode ? "dark-mode" : ""}`}>
             <div className="hero">
-                <button onClick={toggleMode} className="material-symbols-outlined">
+                <button onClick={toggleMode} className="mode-icon-btn">
                 <img className="toggle_btn_icon" src={darkMode ? lightModeIcon : darkModeIcon} alt="Toggle Dark Mode" />
                 </button>
                 <h1 className="title">
