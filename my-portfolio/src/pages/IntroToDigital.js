@@ -24,6 +24,7 @@ const IntroToDigital = () => {
         <li><a href="https://elhadj-birthday-gift.netlify.app/" target="blank">Birthday Gift</a></li>
 
         <li><Link to="/space-exploration">Space Exploration</Link></li>
+        <li><Link to="/home-town-home-page">Home Town Home Page</Link></li>
       </ul>
     </>
   );
