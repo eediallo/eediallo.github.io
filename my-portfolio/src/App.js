@@ -9,6 +9,7 @@ import GoogleClone from "./projects/ITD/Google.com/GoogleClone";
 import PersonalSite from "./projects/ITD/personal-site/PersonalSite";
 import SpaceExploration from "./projects/ITD/space-exploration/SpaceExploration";
 import HomeTownHomePage from "./projects/ITD/hometown-homepage/HomeTownHomePage";
+import IntroToProgramming from "./components/ITP";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
           <Route path="/google-clone" element={<GoogleClone />} />
           <Route path="/space-exploration" element={<SpaceExploration />} />
           <Route path="/home-town-home-page" element={<HomeTownHomePage />} />
+          <Route path="/intro-to-programming" element={<IntroToProgramming />} />
         </Routes>
       </BrowserRouter>
     </div>
