@@ -16,6 +16,7 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <NavBar />
+        <div id="page-body" >
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/about" element={<AboutPage />} />
@@ -27,6 +28,7 @@ function App() {
           <Route path="/home-town-home-page" element={<HomeTownHomePage />} />
           <Route path="/intro-to-programming" element={<IntroToProgramming />} />
         </Routes>
+        </div>
       </BrowserRouter>
     </div>
   );
