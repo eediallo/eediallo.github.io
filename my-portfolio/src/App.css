@@ -178,3 +178,23 @@ nav a:hover {
   text-decoration: none;
   cursor: pointer;
 }
+
+
+
+@media (max-width: 768px) {
+  #page-body {
+    padding-top: 72px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 100%;
+  }
+}
+
+@media (max-width: 420px) {
+  #page-body {
+    padding-top: 150px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 100%;
+  }
+}
