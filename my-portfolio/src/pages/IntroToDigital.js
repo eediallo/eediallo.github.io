@@ -2,10 +2,9 @@ import { Link } from "react-router-dom";
 
 const IntroToDigital = () => {
   return (
-    <>
-      <h1>This is the ITD page</h1>
-      <p>Welcome</p>
-      <ul>
+    <div className="intro-to-digital">
+      <h1>Intro to Digital Projects</h1>
+      <ul className="itd-grid-list">
         <li>
           <Link to="/personal-site">Personal Site</Link>
         </li>
@@ -26,7 +25,7 @@ const IntroToDigital = () => {
         <li><Link to="/space-exploration">Space Exploration</Link></li>
         <li><Link to="/home-town-home-page">Home Town Home Page</Link></li>
       </ul>
-    </>
+    </div>
   );
 };
 
