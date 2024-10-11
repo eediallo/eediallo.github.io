@@ -61,43 +61,51 @@ nav a:hover {
   padding-top: 72px;
 }
 
-/* 
-.nav-bar-section a {
-  text-decoration: none;
-  display: inline-block;
-  color: black;
-  border-bottom: 3px solid black;
-  cursor: pointer;
-}
-
-.nav-bar-section a:hover, a:focus{
-  background-color: black;
-  color: white;
-  padding: 10px;
-  border: none;
-
-} */
-
 .nav-bar-section li{
   list-style: none;
   display: inline-block;
   margin-left: 15px;
 }
-.App {
-  /* text-align: center; */
-  /* line-height: 1.5; */
-}
-
 
 .main-section{
   width: 800px;
   margin-right: auto;
   margin-left: auto;
 }
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
+
+/* =========ITD PAGE================= */
+.itd-grid-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 columns */
+  gap: 10px; /* space between grid items */
+  list-style-type: none; /* remove bullet points */
+  padding: 0;
+}
+
+.itd-grid-list li {
+  padding: 10px;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.itd-grid-list a {
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
+}
+
+.itd-grid-list a:hover {
+  color: #0056b3;
+}
+
+/* =========ITD PAGE================= */
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
