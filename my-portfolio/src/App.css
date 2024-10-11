@@ -188,6 +188,13 @@ nav a:hover {
   .portfolio-grid-list{
     grid-template-columns: 1fr; 
   }
+
+  #page-body {
+    padding-top: 72px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 100%;
+  }
   
 }
 
@@ -208,13 +215,6 @@ nav a:hover {
 
   .portfolio-grid-list{
     grid-template-columns: repeat(3, 1fr); 
-  }
-
-  #page-body {
-    padding-top: 72px;
-    padding-left: 20px;
-    padding-right: 20px;
-    width: 100%;
   }
 }
 
