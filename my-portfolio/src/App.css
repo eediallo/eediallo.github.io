@@ -81,9 +81,9 @@ nav a:hover {
 /* =========ITD PAGE================= */
 .itd-grid-list {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); /* 3 columns */
-  gap: 10px; /* space between grid items */
-  list-style-type: none; /* remove bullet points */
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 10px; 
+  list-style-type: none; 
   padding: 0;
 }
 
@@ -104,7 +104,33 @@ nav a:hover {
   color: #0056b3;
 }
 
-/* =========ITD PAGE================= */
+/* =========PORTFOLIO PAGE================= */
+.portfolio-grid-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 10px; 
+  list-style-type: none; 
+  padding: 0;
+}
+
+.portfolio-grid-list li {
+  padding: 10px;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.portfolio-grid-list a {
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
+}
+
+.portfolio-grid-list a:hover {
+  color: #0056b3;
+}
+/* =========PORTFOLIO PAGE================= */
+
 
 
 @media (prefers-reduced-motion: no-preference) {
