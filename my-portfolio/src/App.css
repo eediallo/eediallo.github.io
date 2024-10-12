@@ -67,13 +67,14 @@ nav a {
   text-decoration: none;
   font-weight: bold;
   padding: 24px 32px;
-  color: (var(--white));
+  color: var(--white);
   opacity: 50%;
 }
 
 nav a:hover {
   background: black;
-  color: white;
+  color: var(--white);
+  opacity: 100%;  
 }
 
 
