@@ -23,7 +23,7 @@ const IntroToDigital = () => {
         <li><a href="https://elhadj-birthday-gift.netlify.app/" target="blank">Birthday Gift</a></li>
 
         <li><Link to="/space-exploration">Space Exploration</Link></li>
-        <li><Link to="/home-town-home-page">Home Town Home Page</Link></li>
+        <li><Link to="https://elhadjdiallo.netlify.app/hometown-homepage/">Home Town Home Page</Link></li>
       </ul>
     </div>
   );
