@@ -1,3 +1,7 @@
+*{
+  box-sizing: border-box;
+}
+
 :root{
   --yellow: #131325;
   --white: #f0f0f0;
@@ -9,13 +13,14 @@
   --columns: 400px 400px
 }
 
-*{
-  box-sizing: border-box;
-}
-
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 18px;
+}
+
+.nav-bar{
+  display: flex;
+  justify-content: space-between;
 }
 
 button {
