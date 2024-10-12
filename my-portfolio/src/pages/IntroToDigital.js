@@ -9,7 +9,7 @@ const IntroToDigital = () => {
           <Link to="https://elhadjdiallo.netlify.app/personal-site/">Personal Site</Link>
         </li>
         <li>
-          <Link to="/google-clone">Google Clone</Link>
+          <Link to="https://elhadjdiallo.netlify.app/google-com/">Google Clone</Link>
         </li>
         <li>
           <a
