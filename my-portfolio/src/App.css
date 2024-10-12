@@ -1,3 +1,14 @@
+:root{
+  --yellow: #131325;
+  --white: #f0f0f0;
+  --green: #198519;
+  --dark-green: #1b471b;
+}
+
+.grid{
+  --columns: 400px 400px
+}
+
 *{
   box-sizing: border-box;
 }
@@ -81,28 +92,42 @@ nav a:hover {
 /* =========ITD PAGE================= */
 .itd-grid-list {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); 
-  gap: 10px; 
-  list-style-type: none; 
-  padding: 0;
+  grid-template-columns: var(--columns); 
+  grid-auto-rows: 160px;
+  grid-gap: 20px;
+  justify-content: center;
 }
 
-.itd-grid-list li {
-  padding: 10px;
-  background-color: #f0f0f0;
-  border-radius: 5px;
+.itd-grid-item{
+background-color: var(--yellow);
+color: var(--white);
+margin: 0 10px
+}
+
+.itd-grid-item h2{
   text-align: center;
-}
+  }
 
-.itd-grid-list a {
-  text-decoration: none;
-  color: #007bff;
-  font-weight: bold;
-}
+  .a-wrap a{
+    display: block;
+    text-align: center;
+    color: var(--white);
+    text-decoration: none;
+    cursor: pointer;
+    }
 
-.itd-grid-list a:hover {
-  color: #0056b3;
-}
+    .a-wrap a:hover, a:focus{
+     background-color: var(--dark-green) ;
+      }
+
+    .a-wrap{
+      width: 60%;
+      margin-left: auto;
+      margin-right: auto;
+      background-color: var(--green);
+      }
+
+
 
 /* =========PORTFOLIO PAGE================= */
 .portfolio-grid-list {
