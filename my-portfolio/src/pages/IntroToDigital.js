@@ -6,7 +6,7 @@ const IntroToDigital = () => {
       <h1>Intro to Digital Projects</h1>
       <ul className="itd-grid-list">
         <li>
-          <Link to="/personal-site">Personal Site</Link>
+          <Link to="https://elhadjdiallo.netlify.app/personal-site/">Personal Site</Link>
         </li>
         <li>
           <Link to="/google-clone">Google Clone</Link>
