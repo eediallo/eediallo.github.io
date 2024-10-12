@@ -25,6 +25,7 @@ body {
   display: flex;
   justify-content: space-between;
   background-color: var(--background-color);
+  color: var(--white);
 }
 
 button {
@@ -64,9 +65,10 @@ nav li {
 
 nav a {
   text-decoration: none;
-  color: black;
   font-weight: bold;
   padding: 24px 32px;
+  color: (var(--white));
+  opacity: 50%;
 }
 
 nav a:hover {
