@@ -116,7 +116,7 @@ margin: 0 10px
     cursor: pointer;
     }
 
-    .a-wrap a:hover, a:focus{
+    .a-wrap a:hover, .a-wrap a:focus{
      background-color: var(--dark-green) ;
       }
 
