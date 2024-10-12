@@ -6,10 +6,10 @@ const IntroToDigital = () => {
       <h1>Intro to Digital Projects</h1>
       <ul className="itd-grid-list">
         <li>
-          <Link to="https://elhadjdiallo.netlify.app/personal-site/">Personal Site</Link>
+          <Link to="https://elhadjdiallo.netlify.app/personal-site/" target="blank">Personal Site</Link>
         </li>
         <li>
-          <Link to="https://elhadjdiallo.netlify.app/google-com/">Google Clone</Link>
+          <Link to="https://elhadjdiallo.netlify.app/google-com/" target="blank">Google Clone</Link>
         </li>
         <li>
           <a
@@ -22,8 +22,8 @@ const IntroToDigital = () => {
 
         <li><a href="https://elhadj-birthday-gift.netlify.app/" target="blank">Birthday Gift</a></li>
 
-        <li><Link to="https://elhadjdiallo.netlify.app/space-exploration/">Space Exploration</Link></li>
-        <li><Link to="https://elhadjdiallo.netlify.app/hometown-homepage/">Home Town Home Page</Link></li>
+        <li><Link to="https://elhadjdiallo.netlify.app/space-exploration/" target="blank">Space Exploration</Link></li>
+        <li><Link to="https://elhadjdiallo.netlify.app/hometown-homepage/" target="blank">Home Town Home Page</Link></li>
       </ul>
     </div>
   );
