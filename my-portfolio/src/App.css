@@ -1,16 +1,17 @@
-*{
+* {
   box-sizing: border-box;
 }
 
-:root{
+:root {
   --yellow: #131325;
   --white: #FFFFFF;
   --green: #198519;
   --dark-green: #1b471b;
   --background-color: #444444;
+  --port-contact-btn-color: #333333
 }
 
-.grid{
+.grid {
   --columns: 400px 400px
 }
 
@@ -21,7 +22,7 @@ body {
   color: var(--white);
 }
 
-.nav-bar{
+.nav-bar {
   display: flex;
   justify-content: space-between;
   background-color: var(--background-color);
@@ -38,7 +39,8 @@ button {
   cursor: pointer;
 }
 
-h3, h4 {
+h3,
+h4 {
   margin-bottom: 0;
 }
 
@@ -73,30 +75,44 @@ nav a {
 nav a:hover {
   background: black;
   color: var(--white);
-  opacity: 100%;  
+  opacity: 100%;
 }
 
-.main-home{
+.main-home {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  height:  528px;
+  height: 528px;
   width: 1413px;
 }
 
-#title{
+#title {
   opacity: 50%;
 }
 
-#name{
+#name {
   font-size: 48px;
   font-weight: bold;
 }
 
-#profile-picture{
+#profile-picture {
   /* border-radius: 50%; */
   width: 200px;
   height: auto;
+}
+
+.port-contact-btn{
+  display: flex;
+  gap: 10px;
+}
+
+.portfolio, .contact{
+  background-color: var(--port-contact-btn-color);
+  color: var(--white);
+  border-radius: 20px;
+  padding: 10px 18px;
+  text-decoration: none;
+
 }
 
 #page-body {
@@ -105,13 +121,13 @@ nav a:hover {
   padding-top: 72px;
 }
 
-.nav-bar-section li{
+.nav-bar-section li {
   list-style: none;
   display: inline-block;
   margin-left: 15px;
 }
 
-.main-section{
+.main-section {
   width: 800px;
   margin-right: auto;
   margin-left: auto;
@@ -125,49 +141,50 @@ nav a:hover {
 /* =========ITD PAGE================= */
 .itd-grid-list {
   display: grid;
-  grid-template-columns: var(--columns); 
+  grid-template-columns: var(--columns);
   grid-auto-rows: 160px;
   grid-gap: 20px;
   justify-content: center;
 }
 
-.itd-grid-item{
-background-color: var(--yellow);
-color: var(--white);
-margin: 0 10px
+.itd-grid-item {
+  background-color: var(--yellow);
+  color: var(--white);
+  margin: 0 10px
 }
 
-.itd-grid-item h2{
+.itd-grid-item h2 {
   text-align: center;
-  }
+}
 
-  .a-wrap a{
-    display: block;
-    text-align: center;
-    color: var(--white);
-    text-decoration: none;
-    cursor: pointer;
-    }
+.a-wrap a {
+  display: block;
+  text-align: center;
+  color: var(--white);
+  text-decoration: none;
+  cursor: pointer;
+}
 
-    .a-wrap a:hover, .a-wrap a:focus{
-     background-color: var(--dark-green) ;
-      }
+.a-wrap a:hover,
+.a-wrap a:focus {
+  background-color: var(--dark-green);
+}
 
-    .a-wrap{
-      width: 60%;
-      margin-left: auto;
-      margin-right: auto;
-      background-color: var(--green);
-      }
+.a-wrap {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: var(--green);
+}
 
 
 
 /* =========PORTFOLIO PAGE================= */
 .portfolio-grid-list {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); 
-  gap: 10px; 
-  list-style-type: none; 
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  list-style-type: none;
   padding: 0;
 }
 
@@ -187,6 +204,7 @@ margin: 0 10px
 .portfolio-grid-list a:hover {
   color: #0056b3;
 }
+
 /* =========PORTFOLIO PAGE================= */
 
 
@@ -216,20 +234,15 @@ margin: 0 10px
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
 }
 
 
-.checkout-my-work-btn{
-  padding: 10px;
-  background-color: black;
-  color: white;
-  text-decoration: none;
-}
-
-.checkout-my-work-btn:hover, .checkout-my-work-btn:focus{
+.checkout-my-work-btn:hover,
+.checkout-my-work-btn:focus {
   padding: 10px;
   background-color: green;
   color: white;
@@ -239,12 +252,12 @@ margin: 0 10px
 
 
 @media (max-width: 600px) {
-  .itd-grid-list{
+  .itd-grid-list {
     grid-template-columns: 1fr;
   }
 
-  .portfolio-grid-list{
-    grid-template-columns: 1fr; 
+  .portfolio-grid-list {
+    grid-template-columns: 1fr;
   }
 
   #page-body {
@@ -253,26 +266,26 @@ margin: 0 10px
     padding-right: 20px;
     width: 100%;
   }
-  
+
 }
 
 @media (min-width: 601px) and (max-width: 768px) {
-  .itd-grid-list{
-    grid-template-columns: repeat(2, 1fr); 
+  .itd-grid-list {
+    grid-template-columns: repeat(2, 1fr);
   }
 
-  .portfolio-grid-list{
-    grid-template-columns: repeat(2, 1fr); 
+  .portfolio-grid-list {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
 @media (min-width: 769px) {
-  .itd-grid-list{
-    grid-template-columns: repeat(3, 1fr); 
+  .itd-grid-list {
+    grid-template-columns: repeat(3, 1fr);
   }
 
-  .portfolio-grid-list{
-    grid-template-columns: repeat(3, 1fr); 
+  .portfolio-grid-list {
+    grid-template-columns: repeat(3, 1fr);
   }
 }
 
