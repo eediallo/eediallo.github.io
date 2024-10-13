@@ -159,6 +159,17 @@ footer {
   display: flex;
   gap: 10px;
 }
+
+.social a {
+  color: var(--white);
+  text-decoration: none;
+  opacity: 50%;
+}
+
+.social a:hover, .social a:focus {
+  opacity: 100%;
+  cursor: pointer;;
+}
 /* =========ITD PAGE================= */
 .itd-grid-list {
   display: grid;
