@@ -79,6 +79,7 @@ nav a:hover, nav a:focus {
   opacity: 100%;
 }
 
+/* ======Home Page============== */
 .main-home {
   display: flex;
   align-items: center;
@@ -143,6 +144,21 @@ nav a:hover, nav a:focus {
   pointer-events: none;
 }
 
+
+/* ====Footer========== */
+
+footer {
+  border-top: 2px solid var(--port-contact-btn-color);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 20px;
+}
+
+.social{
+  display: flex;
+  gap: 10px;
+}
 /* =========ITD PAGE================= */
 .itd-grid-list {
   display: grid;
@@ -211,8 +227,6 @@ nav a:hover, nav a:focus {
 }
 
 /* =========PORTFOLIO PAGE================= */
-
-
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
