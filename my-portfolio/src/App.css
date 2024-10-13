@@ -108,8 +108,8 @@ nav a:hover, nav a:focus {
 }
 
 #profile-picture {
-  /* border-radius: 50%; */
-  width: 200px;
+  border-radius: 50%;
+  width: 300px;
   height: auto;
 }
 
