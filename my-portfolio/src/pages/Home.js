@@ -29,7 +29,7 @@ const HomePage = () => {
           </p>
           <p>
             <Link className="contact" to="/contact">
-              Portfolio
+              Contact
             </Link>
           </p>
           </div>
