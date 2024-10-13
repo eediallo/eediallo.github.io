@@ -1,7 +1,7 @@
 const Footer = () => {
   return (
     <footer>
-      <div>
+      <div className="social">
         <a href="https://www.linkedin.com/in/elhadj-diallo/" target="blank">
           LinkedIn
         </a>
