@@ -14,7 +14,7 @@ const HomePage = () => {
         </div>
         <div>
           <p id="title">Software Engineer | Speaker | Volunteer</p>
-          <h1 id="name">Elhadj Diallo</h1>
+          <h1 id="name">Elhadj Abdoul Diallo</h1>
           <p>
             Thank you for swinging by. In this website you will find all the
             projects I have been working on since I joined{" "}
