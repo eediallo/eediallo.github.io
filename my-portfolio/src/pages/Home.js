@@ -9,7 +9,7 @@ const HomePage = () => {
           <img
             id="profile-picture"
             src={ProfilePicture}
-            alt="Profile picture of Elhadj Abdoul Diallo"
+            alt="Elhadj Abdoul Diallo"
           ></img>
         </div>
         <div>
