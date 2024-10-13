@@ -6,6 +6,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import NavBar from "./components/NavBar";
 import IntroToDigital from "./pages/IntroToDigital";
 import IntroToProgramming from "./components/ITP";
+import Footer from "./pages/Footer";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           <Route path="/intro-to-programming" element={<IntroToProgramming />} />
         </Routes>
         </div>
+        <Footer />
       </BrowserRouter>
     </div>
   );
