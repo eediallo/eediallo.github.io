@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import ProfilePicture from "../images/profile-picture.jpg";
+import ProfilePicture from "../images/myProfilePic.png";
 
 const HomePage = () => {
   return (
