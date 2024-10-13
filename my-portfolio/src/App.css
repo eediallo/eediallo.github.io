@@ -131,6 +131,10 @@ nav a:hover, nav a:focus {
   border: 2px solid var(--greenyellow);
 }
 
+.contact{
+  border: 2px solid var(--white);
+}
+
 .portfolio:hover, .contact:hover{
   background-color: var(--black);
 }
