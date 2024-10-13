@@ -3,12 +3,13 @@
 }
 
 :root {
-  --yellow: #131325;
+  --black: black;
   --white: #FFFFFF;
   --green: #198519;
   --dark-green: #1b471b;
   --background-color: #444444;
   --port-contact-btn-color: #333333
+
 }
 
 .grid {
@@ -72,7 +73,7 @@ nav a {
   opacity: 50%;
 }
 
-nav a:hover {
+nav a:hover, nav a:focus {
   background: black;
   color: var(--white);
   opacity: 100%;
@@ -112,7 +113,11 @@ nav a:hover {
   border-radius: 20px;
   padding: 10px 18px;
   text-decoration: none;
+  cursor: pointer;
+}
 
+.portfolio:hover, .contact:hover{
+  background-color: var(--black);
 }
 
 #page-body {
