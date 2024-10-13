@@ -300,6 +300,12 @@ footer {
   cursor: pointer;
 }
 
+@media screen and (max-width: 1024px){
+  .main-home{
+    height: 900px;
+    margin: 50px 0;
+  }
+}
 
 @media (max-width: 600px) {
   .itd-grid-list {
@@ -317,6 +323,28 @@ footer {
     width: 100%;
   }
 
+
+  .main-home{
+    display: block;
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .profile-picture{
+    
+    height: auto;
+  }
+  .nav-right{
+    display: none;
+  }
+
+  footer{
+    display: block;
+  }
+
+  .social{
+    display: none;
+  }
 }
 
 @media (min-width: 601px) and (max-width: 768px) {
