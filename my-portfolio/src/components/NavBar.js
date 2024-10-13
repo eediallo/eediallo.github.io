@@ -1,6 +1,17 @@
 import { Link } from "react-router-dom";
+import { useState } from "react";
+import HamburgerIcon from "../images/hamburger.png";
+import CloseIcon from "../images/close.png";
 
 const NavBar = () => {
+
+  const [menuOpen, setMenuOpen] = useState(false);
+
+  const toggleMenu = ()=>{
+    setMenuOpen(!menuOpen);
+  }
+
+
   return (
     <header>
       <nav className="nav-bar">
@@ -9,7 +20,17 @@ const NavBar = () => {
             <Link to="/"><span className="e">𝖊</span>DIALLO</Link>
           </li>
         </ul>
-        <ul className="nav-right">
+
+        {/* Hamburger icon */}
+        {/* Hamburger icon */}
+        <div className="hamburger" onClick={toggleMenu}>
+          <div>
+            {menuOpen ? <img src={CloseIcon} alt="close" /> : <img src={HamburgerIcon} alt="hamburger" />}
+            </div>
+        </div>
+
+      
+        <ul className={`nav-right ${menuOpen ? 'open' : ''}`}>
           <li>
             <Link to="/">Home</Link>
           </li>
