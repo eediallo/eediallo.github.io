@@ -12,26 +12,27 @@ const HomePage = () => {
             alt="Elhadj Abdoul Diallo"
           ></img>
         </div>
-        <div>
-          <p id="title">Software Engineer | Speaker | Volunteer</p>
+        <div className="profile-description">
+          <p id="title">Full Stack Engineer | Speaker | Mentor</p>
           <h1 id="name">Elhadj Abdoul Diallo</h1>
           <p>
-            Thank you for swinging by. In this website you will find all the
-            projects I have been working on since I joined{" "}
-            <a href="https://codeyourfuture.io/">Code Your Future</a>
+            I'm a Full Stack Developer who builds websites and web apps. I work
+            with both the front and back end to create smooth and responsive
+            user experiences. I enjoy solving problems and creating practical
+            solutions using the latest tools and technologies
           </p>
-          
+
           <div className="port-contact-btn">
-          <p>
-            <Link className="portfolio" to="/portfolio">
-              Portfolio
-            </Link>
-          </p>
-          <p>
-            <Link className="contact" to="/contact">
-              Contact
-            </Link>
-          </p>
+            <p>
+              <Link className="portfolio" to="/portfolio">
+                Portfolio
+              </Link>
+            </p>
+            <p>
+              <Link className="contact" to="/contact">
+                Contact
+              </Link>
+            </p>
           </div>
         </div>
       </main>
