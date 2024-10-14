@@ -8,7 +8,7 @@ import nodejsLogo from "../images/node-js-logo.svg"
 const Skills = () => {
   return (
     <div className="skills">
-    <h1>Front-end Skills</h1>
+    <h1 className="skill-package-name">Front-end Skills</h1>
       <div className="front-end-skills">
         <div className="html skills-item">
             <img src={htmlLogo} alt="html logo" />
@@ -22,7 +22,7 @@ const Skills = () => {
         </div>
       </div>
 
-      <h1>Back-end Skills</h1>
+      <h1 className="skill-package-name">Back-end Skills</h1>
       <div className="back-end-skills">
         <div className="go skills-item">
             <img src={golangLogo} alt="golang logo" />
@@ -31,6 +31,8 @@ const Skills = () => {
             <img src={nodejsLogo} alt="nodejs logo" />
         </div>
       </div>
+
+      <h1>Other Skills</h1>
     </div>
   );
 };
