@@ -13,7 +13,7 @@
   --background-color: #444444;
   --port-contact-btn-color: #333333;
   --greenyellow: greenyellow;
-  --Poppins: Poppins;
+  --Poppins: "Poppins",sans-serif;
 
 }
 
@@ -22,7 +22,7 @@
 }
 
 body {
-  font-family: Poppins;
+  font-family: var(--Poppins);
   font-size: 400;
   background-color: var(--background-color);
   color: var(--white);
@@ -38,8 +38,8 @@ body {
 
 .title {
   color: hsla(0, 0%, 100%, .5);
-  font-family: Poppins;
-  font-size: 24px;
+  font-family: var(--Poppins);
+  font-size: 28px;
   font-style: normal;
   font-weight: 400;
   line-height: 35px;
@@ -100,7 +100,7 @@ h4 {
   background-color: var(--port-contact-btn-color);
   color: var(--white);
   border-radius: 30px;
-  font-family: Poppins;
+  font-family: var(--Poppins);
   font-weight: 400;
   font-size: 18px;
   padding: 16px 24px;
@@ -186,7 +186,7 @@ h4 {
 
 #title {
   color: hsla(0, 0%, 100%, .5);
-  font-family: Poppins;
+  font-family: var(--Poppins);
   font-size: 24px;
   font-style: normal;
   font-weight: 400;
@@ -196,7 +196,7 @@ h4 {
 
 .profile-description p {
   color: #fff;
-  font-family: Poppins;
+  font-family: var(--Poppins);
   font-style: normal;
   line-height: 35px;
   margin-top: 44px;
