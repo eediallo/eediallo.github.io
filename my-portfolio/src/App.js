@@ -9,6 +9,7 @@ import NavBar from "./components/NavBar";
 import IntroToDigital from "./pages/IntroToDigital";
 import IntroToProgramming from "./components/ITP";
 import Footer from "./pages/Footer";
+import Skills from "./components/Skills";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           <Route path="/portfolio" element={<PortfolioPage />} />
           <Route path="/intro-to-digital" element={<IntroToDigital />} />
           <Route path="/intro-to-programming" element={<IntroToProgramming />} />
+          <Route path="/skills" element={<Skills />} />
         </Routes>
         </div>
         <Footer />
