@@ -9,6 +9,10 @@ const Footer = () => {
           {" "}
           GitHub
         </a>
+        <a href="https://www.youtube.com/@LeanToCodeWithHaj" target="blank">
+          {" "}
+          YouTube
+        </a>
       </div>
 
       <div>
