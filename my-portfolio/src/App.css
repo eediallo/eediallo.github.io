@@ -1,3 +1,7 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
 * {
   box-sizing: border-box;
 }
@@ -18,17 +22,28 @@
 }
 
 body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 18px;
+  font-family: Poppins;
+  font-size: 400;
   background-color: var(--background-color);
   color: var(--white);
 }
 
-.nav-bar {
-  display: flex;
-  justify-content: space-between;
-  background-color: var(--background-color);
-  color: var(--white);
+.app{
+  width: 100%;
+  align-items: center;
+  animation: fade-in 3s cubic-bezier(.39,.575,.565,1) both;
+  display: grid;
+  height: 100%;
+}
+
+.title{
+  color: hsla(0, 0%, 100%, .5);
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 35px;
+  margin-top: 44px;
 }
 
 button {
@@ -50,20 +65,16 @@ h4 {
 .main-home {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-evenly;
   height: 528px;
   width: 1413px;
-  gap: 20px;
+  gap: 30px;
 }
 
 .profile-description{
   width: 100%;
 }
 
-
-#title {
-  opacity: 50%;
-}
 
 #name {
   font-size: 48px;
@@ -274,6 +285,12 @@ footer {
 
   .port-contact-btn{
     justify-content: center;
+  }
+
+  #title{
+    font-size: 20px;
+    margin-top: 0;
+    text-align: center;
   }
 }
 
