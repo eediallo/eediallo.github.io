@@ -56,9 +56,22 @@ const NavBar = () => {
           <div className="menu-small">
             <div className="menu-ul-small-overlay">
               <div className="menu-ul-small-overlay-logo">
+                <div>
                 <Link to="/" onClick={toggleMenu}>
                   <span className="e">𝖊</span>DIALLO
                 </Link>
+                </div>
+                
+                <div className="hamburger" onClick={toggleMenu}>
+                <div>
+                  {menuOpen ? (
+                    <img src={CloseIcon} alt="close" />
+                  ) : (
+                    <img src={HamburgerIcon} alt="hamburger" />
+                  )}
+                </div>
+              </div>
+               
               </div>
 
               <div className="menu-ul-small-overlay-box">
