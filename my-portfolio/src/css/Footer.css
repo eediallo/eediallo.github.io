@@ -1,0 +1,43 @@
+
+footer {
+    border-top: 2px solid var(--port-contact-btn-color);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 20px;
+  }
+  
+  .social {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .social a {
+    color: var(--white);
+    text-decoration: none;
+    opacity: 50%;
+  }
+  
+  .social a:hover,
+  .social a:focus {
+    opacity: 100%;
+    cursor: pointer;
+    ;
+  }
+
+  @media screen and (max-width: 1024px) {
+  
+    footer {
+      display: block;
+    }
+
+    .social {
+      display: none;
+    }
+
+    footer p{
+        text-align: center;
+    }
+
+  }
+  
