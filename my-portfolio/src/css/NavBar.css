@@ -1,0 +1,96 @@
+nav {
+    text-align: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: white;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    font-weight: bold;
+    padding: 24px 32px;
+    color: var(--white);
+    opacity: 50%;
+  }
+  
+  .hamburger{
+    display: none;
+    cursor: pointer;
+  }
+  
+  .hamburger img {
+    width: 30px;
+    height: 30px;
+  }
+  
+  nav a:hover, nav a:focus {
+    background: black;
+    color: var(--white);
+    opacity: 100%;
+  }
+  
+  .e{
+    padding: 0 5px;
+    font-size: 30px;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    color: var(--greenyellow)
+  }
+  
+  .menu-small {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(34, 34, 34, 0.9); /* Semi-transparent */
+    z-index: 10; /* Above other elements, but check the z-index of the nav */
+}
+
+
+/* Hamburger icon for small screens */
+.menu-ul-small-overlay-box {
+    background-color: rgba(34, 34, 34, 0.9); /* Make it semi-transparent */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 5;
+    transition: opacity 0.5s ease;
+    pointer-events: auto; /* Ensure it can receive clicks */
+}
+
+
+  @media screen and (max-width: 1024px){
+    .hamburger{
+        display: block;
+    }
+
+    .nav-right{
+        display: none;
+    }
+
+    /* .nav-left{
+        display: none;
+    } */
+    
+  }
