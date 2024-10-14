@@ -16,7 +16,7 @@ const HomePage = () => {
           <h2 id="title">Full Stack Engineer | Speaker | Mentor</h2>
           <h1 id="name">Elhadj Abdoul Diallo</h1>
           <p>
-            I'm a Full Stack Developer who builds websites and web apps. I work
+            I'm a Full Stack Engineer who builds websites and web apps. I work
             with both the front and back end to create smooth and responsive
             user experiences. I enjoy solving problems and creating practical
             solutions using the latest tools and technologies
