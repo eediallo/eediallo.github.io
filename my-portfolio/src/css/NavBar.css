@@ -33,10 +33,9 @@ nav {
   
   nav a {
     text-decoration: none;
-    font-weight: bold;
     padding: 24px 32px;
-    color: var(--white);
-    opacity: 50%;
+    color: hsla(0, 0%, 100%, .5);
+    font-weight: 400;
   }
   
   .hamburger{
@@ -50,9 +49,15 @@ nav {
   }
   
   nav a:hover, nav a:focus {
-    background: black;
+    cursor: pointer;
+    font-family: Poppins;
+    font-style: normal;
+    text-decoration: none;
     color: var(--white);
-    opacity: 100%;
+    font-weight: normal;
+    font-size: 400;
+    background-color: black
+
   }
   
   .e{
