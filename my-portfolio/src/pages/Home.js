@@ -23,16 +23,12 @@ const HomePage = () => {
           </p>
 
           <div className="port-contact-btn">
-            <p>
               <Link className="portfolio" to="/portfolio">
                 Portfolio
               </Link>
-            </p>
-            <p>
               <Link className="contact" to="/contact">
                 Contact
               </Link>
-            </p>
           </div>
         </div>
       </main>
