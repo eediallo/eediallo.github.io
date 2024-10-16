@@ -9,6 +9,7 @@
   justify-content: space-between;
   background-color: var(--background-color);
   color: var(--white);
+  align-items: center;
 }
 
 
@@ -32,6 +33,17 @@ nav {
     padding-bottom: 24px;
   }
   
+    
+  .nav-left a{
+    padding: 0;
+    text-decoration: none;
+  }
+
+.nav-left a:hover{
+  background-color: #4444;
+  }
+
+
   nav a {
     text-decoration: none;
     padding: 24px 32px;
@@ -61,13 +73,10 @@ nav {
 
   }
   
-  .e{
-    padding: 0 5px;
-    font-size: 30px;
-    border-radius: 50%;
-    width: 100px;
-    height: 100px;
-    color: var(--greenyellow)
+
+  .logo{
+    width: 150px;
+    height: auto;
   }
   
 
