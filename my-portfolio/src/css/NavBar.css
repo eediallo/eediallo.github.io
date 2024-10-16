@@ -2,6 +2,7 @@
 
 :root{
   --Poppins: "Poppins" sans-serif;
+  --color: #F0F6FC;
 }
 .nav-bar {
   display: flex;
@@ -34,8 +35,8 @@ nav {
   nav a {
     text-decoration: none;
     padding: 24px 32px;
-    color: hsla(0, 0%, 100%, .5);
     font-weight: 400;
+    color: var(--color);
   }
   
   .hamburger{
