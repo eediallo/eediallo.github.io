@@ -5,10 +5,10 @@ const Portfolio = () => {
       <h1>Portfolio</h1>
       <div className="portfolio-grid-list">
         <div className="portfolio-grid-item">
-          <h2>Personal Site</h2>
+          <h2>Groupie Tracker</h2>
           <div className="a-wrap">
             <a
-              href="https://elhadjdiallo.netlify.app/personal-site/"
+              href="https://groupie-tracker-jq1b.onrender.com/"
               target="blank "
             >
               Learn More
