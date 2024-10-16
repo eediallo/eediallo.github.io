@@ -39,7 +39,7 @@ nav {
     text-decoration: none;
   }
 
-.nav-left a:hover{
+.nav-left a:hover, .nav-left a:hover:focus{
   background-color: #4444;
   }
 
@@ -75,7 +75,7 @@ nav {
   
 
   .logo{
-    width: 150px;
+    width: 100px;
     height: auto;
   }
   
