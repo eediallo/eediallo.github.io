@@ -30,11 +30,11 @@ const Portfolio = () => {
         </div>
 
         <div className="portfolio-grid-item">
-          <h2> Digital Business Card</h2>
+          <h2>Forum</h2>
 
           <div className="a-wrap">
             <a
-              href="https://elhadji-digital-business-card.netlify.app/"
+              href="https://forum-atb0.onrender.com/"
               target="blank"
             >
               Learn More
