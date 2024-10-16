@@ -38,7 +38,7 @@ const Contact = () => {
             <br></br>
 
             <div>
-                <label for="enquiry" ></label>
+                <label for="enquiry"></label>
                 <select id="enquiry" name="enquiry" >
                     <option value="EDA Academy">EDA Academy</option>
                     <option value="Maintenance">Maintenance</option>
