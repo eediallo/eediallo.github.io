@@ -1,0 +1,78 @@
+/* .portfolio-section{
+    display: grid;
+    grid-template-columns: 200px 200px;
+} */
+:root {
+    --black: black;
+    --white: #F0F6FC;
+    --green: #198519;
+    --dark-green: #1b471b;
+    --background-color: #444444;
+    --port-contact-btn-color: #333333;
+    --greenyellow: greenyellow;
+    --Poppins: "Poppins",sans-serif;
+    --grid-columns: 400px 400px;
+  
+  }
+
+.portfolio-section h1{
+    text-align: center;
+}
+
+.portfolio-grid-list {
+    display: grid;
+    grid-template-columns: var(--grid-columns);
+    grid-auto-rows: 160px;
+    grid-gap: 20px;
+    justify-content: center;
+    margin: 30px 0;
+  }
+  
+  .portfolio-grid-item {
+    background-color: #333333;
+    color: var(--white);
+    margin: 0 10px
+  }
+  
+  .portfolio-grid-item h2 {
+    text-align: center;
+  }
+  
+  .a-wrap a {
+    display: block;
+    text-align: center;
+    color: var(--white);
+    text-decoration: none;
+    cursor: pointer;
+    color: #333333;
+  }
+  
+  .a-wrap a:hover,
+  .a-wrap a:focus {
+    background-color: var(--dark-green);
+  }
+  
+  .a-wrap {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--greenyellow);
+  }
+  
+  #title {
+    color: hsla(0, 0%, 100%, .5);
+    font-family: var(--Poppins);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 35px;
+    margin-top: 44px;
+  }
+  
+  .profile-description p {
+    color: #fff;
+    font-family: var(--Poppins);
+    font-style: normal;
+    line-height: 35px;
+    margin-top: 44px;
+  }
