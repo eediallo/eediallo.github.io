@@ -1,7 +1,6 @@
-/* .portfolio-section{
-    display: grid;
-    grid-template-columns: 200px 200px;
-} */
+.portfolio-section{
+    margin: 100px 0;
+}
 :root {
     --black: black;
     --white: #F0F6FC;
