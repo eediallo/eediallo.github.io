@@ -62,3 +62,21 @@ select{
 option{
     background-color: rgb(196, 229, 145);
 }
+
+
+
+@media screen and (max-width: 1024px) {
+
+    .contact-wrapper{
+        display: block;
+        text-align: center;
+    }
+
+    .contact-box{
+        display: block;
+    }
+
+    form{
+        display: block;
+    }
+}
