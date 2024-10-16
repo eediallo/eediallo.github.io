@@ -33,6 +33,18 @@ input[type="text"], input[type="email"]{
     color: #222;
 }
 
+input[type="submit"]{
+    background-color: #333333;
+    color: #e9e3e3;
+    border-radius: 20px;
+    font-weight: 400;
+    font-size: 18px;
+    padding: 14px 24px;
+    cursor: pointer;
+    border: 2px solid greenyellow;
+}
+
+
 input[type="text"]:focus, input[type="email"]:focus{
     padding: 5px 10px;
     width: 300px;
