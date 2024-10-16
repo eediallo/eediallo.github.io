@@ -17,11 +17,11 @@ const Portfolio = () => {
         </div>
 
         <div className="portfolio-grid-item">
-          <h2>Google Clone</h2>
+          <h2>Ascii Art Web</h2>
 
           <div className="a-wrap">
             <a
-              href="https://elhadjdiallo.netlify.app/google-com/"
+              href="https://ascii-art-web-dockerize.onrender.com/"
               target="blank"
             >
               Learn More
