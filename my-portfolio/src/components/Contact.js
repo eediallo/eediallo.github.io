@@ -27,18 +27,18 @@ const Contact = () => {
             {/* main form input */}
             <div>
             <div>
-                <label for="full-name" >Full Name: </label>
+                <label for="full-name" ></label>
                 <input type="text" id="full-name" name="full-name" placeholder="Enter your full name" required/>
             </div>
             <br></br>
             <div>
-                <label for="email" >Email Address: </label>
+                <label for="email" ></label>
                 <input type="email" id="email" name="email" placeholder="Enter your email address" required/>
             </div>
             <br></br>
 
             <div>
-                <label for="enquiry" >Enquiry Type: </label>
+                <label for="enquiry" ></label>
                 <select id="enquiry" name="enquiry" >
                     <option>EDA Academy</option>
                     <option>Maintenance</option>
