@@ -3,6 +3,7 @@ import "./css/NavBar.css";
 import "./css/Footer.css"
 import "./css/skills.css"
 import "./css/contact.css"
+import "./css/contact.css"
 import AboutPage from "./pages/About";
 import HomePage from "./pages/Home";
 import PortfolioPage from "./pages/Portfolio";
