@@ -40,25 +40,27 @@
   
   .a-wrap {
     border-radius: 5px;
-    padding: 5px;
   }
 
-
+/* 
   .a-wrap:hover {
     background-color: black;
-  }
+  } */
   
   .a-wrap a {
+    padding: 10px 0;
     display: block;
     text-align: center;
     text-decoration: none;
     cursor: pointer;
-    color: #333333;
+    color: black;
   }
   
   .a-wrap a:hover,
   .a-wrap a:focus {
    color: var(--white);
+   background-color: black;
+   cursor: pointer;
   }
   
   .a-wrap {
