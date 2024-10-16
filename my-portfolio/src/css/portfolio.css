@@ -87,3 +87,15 @@
     line-height: 35px;
     margin-top: 44px;
   }
+
+  @media screen and (max-width: 1024px) {
+    
+    .portfolio-grid-list{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .portfolio-grid-item{
+        padding: 20px;
+    }
+  }
