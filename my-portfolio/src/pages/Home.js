@@ -13,8 +13,8 @@ const HomePage = () => {
           width={300} height={300}></img>
         </div>
         <div className="profile-description">
-          <h2 id="title">Full Stack Engineer | Speaker | Mentor</h2>
-          <h1 id="name">Elhadj Abdoul Diallo</h1>
+          <h2 id="title">Full Stack Engineer</h2>
+          <h1 id="name">Elhadj A Diallo</h1>
           <p>
             I'm a Full Stack Engineer who builds websites and web apps. I work
             with both the front and back end to create smooth and responsive
