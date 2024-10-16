@@ -10,7 +10,7 @@ const HomePage = () => {
             id="profile-picture"
             src={ProfilePicture}
             alt="Elhadj Abdoul Diallo"
-          ></img>
+          width={300} height={300}></img>
         </div>
         <div className="profile-description">
           <h2 id="title">Full Stack Engineer | Speaker | Mentor</h2>
