@@ -40,9 +40,9 @@ const Contact = () => {
             <div>
                 <label for="enquiry" ></label>
                 <select id="enquiry" name="enquiry" >
-                    <option>EDA Academy</option>
-                    <option>Maintenance</option>
-                    <option>Partnership</option>
+                    <option value="EDA Academy">EDA Academy</option>
+                    <option value="Maintenance">Maintenance</option>
+                    <option value="Partnership">Partnership</option>
                 </select>
             </div>
             </div>
