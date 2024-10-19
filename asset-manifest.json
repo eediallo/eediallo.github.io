@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/ediallo/static/css/main.d384a698.css",
+    "main.js": "/ediallo/static/js/main.54676e11.js",
+    "static/js/453.acca0757.chunk.js": "/ediallo/static/js/453.acca0757.chunk.js",
+    "static/media/myProfilePic.png": "/ediallo/static/media/myProfilePic.b701b8b57e01557418a5.png",
+    "static/media/golang-logo.png": "/ediallo/static/media/golang-logo.02bc982b6d5375664482.png",
+    "static/media/react-logo2.svg": "/ediallo/static/media/react-logo2.00fa8ae48c11168d01e6233ef82f126d.svg",
+    "static/media/node-js-logo.svg": "/ediallo/static/media/node-js-logo.644cc6d6e9d43f309da51fe7d6edb282.svg",
+    "static/media/location.svg": "/ediallo/static/media/location.77ddd4ade08228c616f498933f81cd71.svg",
+    "static/media/html-5-logo.svg": "/ediallo/static/media/html-5-logo.e248da514edac2a2a66bde8fa0166701.svg",
+    "static/media/css-logo.svg": "/ediallo/static/media/css-logo.62dd7a7609a4f5253941ee34c348b64e.svg",
+    "static/media/email-logo.svg": "/ediallo/static/media/email-logo.6dd24566e42b563bb861dc9ebc01730f.svg",
+    "index.html": "/ediallo/index.html",
+    "static/media/phone-logo.svg": "/ediallo/static/media/phone-logo.3c0b0368cca743dcae69a682b7011d43.svg",
+    "main.d384a698.css.map": "/ediallo/static/css/main.d384a698.css.map",
+    "main.54676e11.js.map": "/ediallo/static/js/main.54676e11.js.map",
+    "453.acca0757.chunk.js.map": "/ediallo/static/js/453.acca0757.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d384a698.css",
+    "static/js/main.54676e11.js"
+  ]
+}
