@@ -14,6 +14,7 @@ import IntroToProgramming from "./components/ITP";
 import Footer from "./pages/Footer";
 import Skills from "./components/Skills";
 import Contact from "./components/Contact";
+import NotFound from "./pages/NotFound";
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
           <Route path="/intro-to-programming" element={<IntroToProgramming />} />
           <Route path="/skills" element={<Skills />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="*" element={<NotFound />} />
         </Routes>
         </div>
         <Footer />
