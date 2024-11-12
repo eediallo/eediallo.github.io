@@ -2,7 +2,6 @@ import ProfilePicture from "../images/myProfilePic.png";
 
 import htmlLogo from "../images/html-5-logo.svg";
 import cssLogo from "../images/css-logo.svg";
-// import jsLogo from "../images/javascript-logo.svg"
 import reactLogo from "../images/react-logo2.svg";
 import golangLogo from "../images/golang-logo.png";
 import nodejsLogo from "../images/node-js-logo.svg";
