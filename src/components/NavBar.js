@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import { useState } from "react";
 import HamburgerIcon from "../images/hamburger.png";
 import CloseIcon from "../images/close.png";
-import logo from "../images/logo.png"
+import logo from "../images/logo.png";
 
 const NavBar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -17,7 +17,7 @@ const NavBar = () => {
         <ul className="nav-left">
           <li>
             <Link to="/">
-                <img className="logo" src={logo} alt="logo"/>
+              <img className="logo" src={logo} alt="logo" />
             </Link>
           </li>
         </ul>
@@ -28,16 +28,16 @@ const NavBar = () => {
             <Link to="/">Home</Link>
           </li>
           <li>
-            <Link to="#about">About</Link>
+            <a href="#about">About</a>
           </li>
           <li>
-            <Link to="/skills">Skills</Link>
+            <a href="#skills">Skills</a>
           </li>
           <li>
-            <Link to="/portfolio">Portfolio</Link>
+            <a href="#portfolio">Portfolio</a>
           </li>
           <li>
-            <Link to="/contact">Contact</Link>
+            <a href="#contact">Contact</a>
           </li>
         </ul>
 
@@ -58,39 +58,38 @@ const NavBar = () => {
             <div className="menu-ul-small-overlay">
               <div className="menu-ul-small-overlay-logo">
                 <div>
-                <Link to="/" onClick={toggleMenu}>
-                  <span className="e">𝖊</span>DIALLO
-                </Link>
+                  <Link to="/" onClick={toggleMenu}>
+                    <span className="e">𝖊</span>DIALLO
+                  </Link>
                 </div>
-                
+
                 <div className="hamburger" onClick={toggleMenu}>
-                <div>
-                  {menuOpen ? (
-                    <img src={CloseIcon} alt="close" />
-                  ) : (
-                    <img src={HamburgerIcon} alt="hamburger" />
-                  )}
+                  <div>
+                    {menuOpen ? (
+                      <img src={CloseIcon} alt="close" />
+                    ) : (
+                      <img src={HamburgerIcon} alt="hamburger" />
+                    )}
+                  </div>
                 </div>
-              </div>
-               
               </div>
 
               <div className="menu-ul-small-overlay-box">
                 <Link to="/" onClick={toggleMenu}>
                   Home
                 </Link>
-                <Link to="#about" onClick={toggleMenu}>
+                <a href="#about" onClick={toggleMenu}>
                   About
-                </Link>
-                <Link to="/skills" onClick={toggleMenu}>
+                </a>
+                <a href="#skills" onClick={toggleMenu}>
                   Skills
-                </Link>
-                <Link to="/portfolio" onClick={toggleMenu}>
+                </a>
+                <a href="#portfolio" onClick={toggleMenu}>
                   Portfolio
-                </Link>
-                <Link to="/contact" onClick={toggleMenu}>
+                </a>
+                <a href="#contact" onClick={toggleMenu}>
                   Contact
-                </Link>
+                </a>
               </div>
             </div>
           </div>
