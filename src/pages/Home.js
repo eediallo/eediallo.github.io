@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import ProfilePicture from "../images/myProfilePic.png";
 
 import htmlLogo from "../images/html-5-logo.svg";
@@ -36,12 +35,12 @@ const HomePage = () => {
           </p>
 
           <div className="port-contact-btn">
-            <Link className="portfolio" to="/portfolio">
+            <a className="portfolio" href="#portfolio">
               Portfolio
-            </Link>
-            <Link className="contact" to="/contact">
+            </a>
+            <a className="contact" href="#contact">
               Contact
-            </Link>
+            </a>
           </div>
         </div>
       </main>
