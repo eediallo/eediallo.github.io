@@ -128,7 +128,7 @@ const HomePage = () => {
             <div className="contact-box">
               <img src={phoneLogo} alt="phone logo" />
               <p>
-                <important>+44 9939 99393939</important>
+                <important>+44 776 796 3391</important>
               </p>
             </div>
             <div className="contact-box">
