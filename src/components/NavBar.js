@@ -28,7 +28,7 @@ const NavBar = () => {
             <Link to="/">Home</Link>
           </li>
           <li>
-            <Link to="/about">About</Link>
+            <Link to="#about">About</Link>
           </li>
           <li>
             <Link to="/skills">Skills</Link>
@@ -79,7 +79,7 @@ const NavBar = () => {
                 <Link to="/" onClick={toggleMenu}>
                   Home
                 </Link>
-                <Link to="/about" onClick={toggleMenu}>
+                <Link to="#about" onClick={toggleMenu}>
                   About
                 </Link>
                 <Link to="/skills" onClick={toggleMenu}>
