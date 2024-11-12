@@ -5,6 +5,11 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+
 :root {
   --black: black;
   --white: #FFFFFF;
@@ -13,7 +18,7 @@
   --background-color: #444444;
   --port-contact-btn-color: #333333;
   --greenyellow: greenyellow;
-  --Poppins: "Poppins",sans-serif;
+  --Poppins: "Poppins", sans-serif;
 
 }
 
@@ -67,9 +72,9 @@ h4 {
   gap: 30px;
 }
 
-.profile-description p{
-    margin: 0 auto;           
-    padding: 0 15px;  
+.profile-description p {
+  margin: 0 auto;
+  padding: 0 15px;
 }
 
 
@@ -214,11 +219,11 @@ h4 {
     justify-content: center;
   }
 
-  .profile-description p{
+  .profile-description p {
     font-size: 16px;
     max-width: 90%;
     text-align: center;
-    
+
   }
 }
 
@@ -254,7 +259,7 @@ h4 {
   }
 }
 
-.not-found h1{
+.not-found h1 {
   text-align: center;
 }
 
