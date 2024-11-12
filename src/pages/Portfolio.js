@@ -1,4 +1,3 @@
-
 const Portfolio = () => {
   return (
     <div className="portfolio-section">
@@ -11,7 +10,7 @@ const Portfolio = () => {
               href="https://groupie-tracker-jq1b.onrender.com/"
               target="blank "
             >
-              Learn More
+              Demo
             </a>
           </div>
         </div>
@@ -24,7 +23,7 @@ const Portfolio = () => {
               href="https://ascii-art-web-dockerize.onrender.com/"
               target="blank"
             >
-              Learn More
+              Demo
             </a>
           </div>
         </div>
@@ -33,44 +32,8 @@ const Portfolio = () => {
           <h2>Forum</h2>
 
           <div className="a-wrap">
-            <a
-              href="https://forum-atb0.onrender.com/"
-              target="blank"
-            >
-              Learn More
-            </a>
-          </div>
-        </div>
-
-        <div className="portfolio-grid-item">
-          <h2> Birthday Gift</h2>
-          <div className="a-wrap">
-            <a href="https://elhadj-birthday-gift.netlify.app/" target="blank">
-              Learn More
-            </a>
-          </div>
-        </div>
-
-        <div className="portfolio-grid-item">
-          <h2> Space Exploration</h2>
-          <div className="a-wrap">
-            <a
-              href="https://elhadjdiallo.netlify.app/space-exploration/"
-              target="blank"
-            >
-              Learn More
-            </a>
-          </div>
-        </div>
-
-        <div className="portfolio-grid-item">
-          <h2> Home Town Home Page</h2>
-          <div className="a-wrap">
-            <a
-              href="https://elhadjdiallo.netlify.app/homehrefwn-homepage/"
-              target="blank"
-            >
-              Learn More
+            <a href="https://forum-atb0.onrender.com/" target="blank">
+              Demo
             </a>
           </div>
         </div>
