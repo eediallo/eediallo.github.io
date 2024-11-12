@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-:root{
+:root {
   --Poppins: "Poppins" sans-serif;
   --color: #F0F6FC;
 }
+
 .nav-bar {
   display: flex;
   justify-content: space-between;
@@ -14,73 +15,72 @@
 
 
 nav {
-    text-align: center;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    background: white;
-  }
-  
-  nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-  }
-  
-  nav li {
-    display: inline-block;
-    padding-top: 24px;
-    padding-bottom: 24px;
-  }
-  
-    
-  .nav-left a{
-    padding: 0;
-    text-decoration: none;
-  }
+  text-align: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: white;
+}
 
-.nav-left a:hover, .nav-left a:hover:focus{
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+
+.nav-left a {
+  padding: 0;
+  text-decoration: none;
+}
+
+.nav-left a:hover {
   background-color: #4444;
-  }
+}
 
 
-  nav a {
-    text-decoration: none;
-    padding: 24px 32px;
-    font-weight: 400;
-    color: var(--color);
-  }
-  
-  .hamburger{
-    display: none;
-    cursor: pointer;
-  }
-  
-  .hamburger img {
-    width: 55px;
-    height: 55px;
-  }
-  
-  nav a:hover, nav a:focus {
-    cursor: pointer;
-    font-family: var(--Poppins);
-    font-style: normal;
-    text-decoration: none;
-    color: var(--white);
-    font-weight: normal;
-    font-size: 400;
-    background-color: black
+nav a {
+  text-decoration: none;
+  padding: 24px 32px;
+  font-weight: 400;
+  color: var(--color);
+}
 
-  }
-  
+.hamburger {
+  display: none;
+  cursor: pointer;
+}
 
-  .logo{
-    width: 100px;
-    height: auto;
-  }
-  
+.hamburger img {
+  width: 55px;
+  height: 55px;
+}
 
-.menu-small{
+nav a:hover {
+  cursor: pointer;
+  font-family: var(--Poppins);
+  font-style: normal;
+  text-decoration: none;
+  color: var(--white);
+  font-weight: normal;
+  font-size: 400;
+  background-color: black
+}
+
+
+.logo {
+  width: 100px;
+  height: auto;
+}
+
+
+.menu-small {
   display: flex;
   flex-direction: column;
 }
@@ -114,7 +114,7 @@ nav {
 
 @media screen and (max-width: 1170px) {
   .menu-ul-small .hamburger img {
-      display: flex;
+    display: flex;
   }
 }
 
@@ -130,20 +130,18 @@ nav {
 
 
 
-  @media screen and (max-width: 1024px){
+@media screen and (max-width: 1024px) {
 
-    /* header {
+  /* header {
       margin: 30px 30px 0;
   }
    */
-    .hamburger{
-        display: block;
-    }
-
-    .nav-right{
-        display: none;
-    }
-    
+  .hamburger {
+    display: block;
   }
 
+  .nav-right {
+    display: none;
+  }
 
+}
