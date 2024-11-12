@@ -15,7 +15,7 @@ const HomePage = () => {
         <div className="profile-description">
           <h2 id="title">Full Stack Engineer</h2>
           <h1 id="name">Elhadj Abdoul Diallo</h1>
-          <p>
+          <p id="about">
             I'm a Full Stack Engineer who builds websites and web apps. I work
             with both the front and back end to create smooth and responsive
             user experiences. I enjoy solving problems and creating practical
